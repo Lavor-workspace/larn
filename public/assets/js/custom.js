@@ -280,3 +280,21 @@
 
 
 })(window.jQuery);
+
+function selectItem(item, just = null) {
+    let selectedItem = document.getElementById(item)
+
+    if(selectedItem.className === 'clickable item'){
+        selectedItem.className = 'selected item';
+    } else {
+        selectedItem.className = 'clickable item';
+    }
+
+    if (just !== false) {
+        for (let index = 1; index < just + 1; index++) {
+            if (!item.includes(index)) {
+                document.getElementById('type'+index).className = 'clickable item'
+            }
+        }
+    }
+}

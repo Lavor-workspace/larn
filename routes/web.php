@@ -42,6 +42,18 @@ Route::get('/offline', function () {
 })->name('offline');
 
 
-Route::get('/document', function () {
+Route::get('/py', function () {
     return view('routing.document');
-});
+})->name('/articles/python');
+
+Route::get('/ba', function () {
+    return view('routing.document');
+})->name('/articles/bash');
+
+Route::get('/codei', function () {
+    return view('routing.document');
+})->name('/articles/codeigniter');
+
+Route::get('/boot', function () {
+    return view('routing.document');
+})->name('/articles/bootstrap');

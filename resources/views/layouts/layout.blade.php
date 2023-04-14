@@ -60,7 +60,7 @@
                             <li><a href="/" class="active">Inicio</a></li>
                             <li><a href="/documentation">Documentacion</a></li>
                             @if (!Auth::user())
-                                <li><a href="/login">Login </a></li>
+                                <li><a href="/login">Join <img src="assets/images/indecisive.png" alt=""></a></li>
                             @else
                                 <li><a href="/profile">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
                             @endif
@@ -91,9 +91,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2036 <a href="#">Cyborg Gaming</a> Company. All rights reserved.
-
-          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a>  Distributed By <a href="https://themewagon.com" target="_blank" >ThemeWagon</a></p>
+          <p>2023 <a target="_blank" href="https://blinke.maximoprandi.tech">Blinke</a><br> Open source project</p>
         </div>
       </div>
     </div>

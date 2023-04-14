@@ -17,6 +17,10 @@ class small extends Component
         public string $name,
         public string $downloads,
         public string $url,
+        public string $itemId,
+        public string $sizes,
+        public string $sizel,
+        public string $just,
     ) {}
 
     /**
