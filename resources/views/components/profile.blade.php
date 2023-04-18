@@ -31,9 +31,9 @@
                     <div class="main-border-button">
                     <a href="#">Follow</a>
                     <a style="background-color: #2e69bb; color:white;"           data-bs-toggle="collapse"
-                    data-bs-target="#collapseExample"
+                    data-bs-target="#collapseExample2"
                     aria-expanded="false"
-                    aria-controls="collapseExample" href="javaScript:void(0)">Message</a>
+                    aria-controls="collapseExample2" href="javaScript:void(0)">Message</a>
                     </div>
                 </div>
                 </div>
@@ -185,30 +185,6 @@
     </div>
 </div>
 <!-- ***** Gaming Library End ***** -->
-<style>
-    #chat4 .form-control {
-    border-color: transparent;
-    }
-
-    #chat4 .form-control:focus {
-    border-color: transparent;
-    box-shadow: inset 0px 0px 0px 1px transparent;
-    }
-
-    .divider:after,
-    .divider:before {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #eee;
-    }
-
-    .pax{
-        position: fixed;
-        bottom: 0;
-        right: 0;
-    }
-</style>
 
 <section>
     <div class="container py-5">
@@ -335,4 +311,4 @@
       </div>
 
     </div>
-  </section>
+</section>
